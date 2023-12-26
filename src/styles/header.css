@@ -1,0 +1,59 @@
+ 
+
+ .header-wrapper {
+  display: flex;  
+  align-items: center;
+  padding-right: 3%;
+  padding-left: 3%;
+  padding-top: 1%;
+  padding-bottom: 0.5%;
+  background-color: black;
+  justify-content: space-around;
+} 
+.logoLink-wrapper{
+  display: flex;
+  width: 80%;
+}
+
+ .links {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;     
+  color: black;
+  padding-left: 9%;
+  justify-content:space-evenly;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.links div a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  font-family: satoshi;
+  padding: 0.5rem;
+}
+
+.contactUs {
+  width: 10%;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.contactUs button {
+  background-color: #7257ff;
+  border: none;
+  border-radius: 1000px;
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  padding: 7px 14px;
+  align-items: flex-start;
+}  
